@@ -17,7 +17,8 @@ crontab -e
 ```
 tc მომხმარებლიდან შეიძლება დავარედაგტიროთ  crontab ფაილი:
 
-``` SHELL=/bin/sh
+``` 
+SHELL=/bin/sh
 PATH=/usr/sbin:/usr/bin
 
 # run a script each minute
