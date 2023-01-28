@@ -21,8 +21,9 @@ tc მომხმარებლიდან შეიძლება დავ
 SHELL=/bin/sh
 PATH=/usr/sbin:/usr/bin
 
-# run a script each minute
-# use absolute paths to point to scripts
+# დიეზი არის კომენტარის ნიშანი
+# ამ ჩანაწერის მიხედვით სკრიპტი შესრულდება ყოველ წუთში
+# სკრიპტისთვის გასაშვებად უნდა გამოვიყენოთ აბსოლუტური გზა ფაილამდე
 * * * * * sh /home/tc/bin 
 
 ```
