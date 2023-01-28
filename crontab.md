@@ -19,7 +19,9 @@ PATH=/usr/sbin:/usr/bin
 
 # run a script each minute
 # use absolute paths to point to scripts
-* * * * * sh /home/tc/bin ```
+* * * * * sh /home/tc/bin 
+
+```
 
 .filetool.sh ფაილში უნდა დაემატოს crontabs, რათა შევძლოთ მათი შენახვა და შემდგომ ჩატვირთვაზე გამოყენება:
 
